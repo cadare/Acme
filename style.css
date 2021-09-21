@@ -9,6 +9,13 @@ body {
 
 .nav {
   height: 100px;
+  background-color: #35424a;
+  border-bottom: 5px solid #e8491d;
+}
 
-  background-color: #3d3e42;
+.nav__navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
 }
