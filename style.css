@@ -7,16 +7,22 @@ body {
   color: #fff;
 }
 
-.nav {
+.nav__container {
+  width: 100%;
+  overflow: hidden;
   height: 100px;
   background-color: #35424a;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  align-items: center;
   border-bottom: 5px solid #e8491d;
 }
 
 .nav__navbar {
-  display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .nav ul {
@@ -25,10 +31,12 @@ body {
 
 .nav li {
   display: inline;
+  margin-top: 2rem;
 }
 
 .nav a {
   text-decoration: none;
   color: #fff;
   padding: 10px;
+  margin-top: 2rem;
 }
