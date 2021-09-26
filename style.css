@@ -59,3 +59,26 @@ body {
 .nav__acme {
   color: #e8491d;
 }
+
+.hero__image {
+  height: 40rem;
+  width: 100%;
+  background-image: url(/img/showcase-hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.hero__text {
+  height: 40px;
+  z-index: 999;
+  color: #fff;
+}
+
+.hero__title {
+  border: 2px solid red;
+}
+
+.current {
+  font-weight: bolder;
+}
